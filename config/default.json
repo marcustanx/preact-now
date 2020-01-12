@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://atlasAdmin:oL8cM7fJs3h7vKya@startercluster-uwi4p.gcp.mongodb.net/test?retryWrites=true&w=majority"
+}
+// {
+//     "mongoURI": "mongodb://localhost:127.0.0.1/books"
+// }

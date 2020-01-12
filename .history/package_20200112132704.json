@@ -1,26 +1,4 @@
 {
-<<<<<<< HEAD
-  "private": true,
-  "name": "my-preact-project",
-  "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {
-    "start": "per-env",
-    "start:production": "npm run -s serve",
-    "start:development": "npm run -s dev",
-    "build": "preact build",
-    "serve": "preact build && serve build --single",
-    "dev": "preact watch",
-    "lint": "eslint src",
-    "test": "jest"
-  },
-  "eslintConfig": {
-    "extends": "eslint-config-synacor"
-  },
-  "eslintIgnore": [
-    "build/*"
-  ],
-=======
   "name": "reactfiles",
   "version": "0.1.0",
   "private": true,
@@ -45,7 +23,6 @@
     "react-scripts": "3.3.0",
     "validator": "^12.1.0"
   },
->>>>>>> Add client/server files
   "devDependencies": {
     "enzyme": "^3.10.0",
     "enzyme-adapter-preact-pure": "^2.0.0",
@@ -59,20 +36,6 @@
     "preact-render-spy": "^1.2.1",
     "serve": "^11.1.0"
   },
-<<<<<<< HEAD
-  "dependencies": {
-    "preact": "^10.0.1",
-    "preact-render-to-string": "^5.1.0",
-    "preact-router": "^3.0.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
-  },
-  "jest": {
-    "preset": "jest-preset-preact",
-    "setupFiles": [
-      "<rootDir>/tests/__mocks__/browserMocks.js",
-      "<rootDir>/tests/__mocks__/setupTests.js"
-=======
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
@@ -95,7 +58,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
->>>>>>> Add client/server files
     ]
   }
 }

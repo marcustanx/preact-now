@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "my-preact-project",
   "short_name": "my-preact-project",
+=======
+  "name": "preact-now",
+  "short_name": "preact-now",
+>>>>>>> Add client/server files
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
